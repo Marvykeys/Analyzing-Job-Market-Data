@@ -43,98 +43,40 @@ But I changed the Measure from "Sum" to "Average".
 ##
 I sorted the "Average Years of Experience" in Ascending Order.
 
+<img width="602" alt="TABLEAU JOB PROJ 6" src="https://github.com/Marvykeys/Analyzing-Job-Market-Data/assets/130637591/7a33727e-b9d9-450a-bf59-a92957f6a0c1">
+
+##
+I used the "Job postings date" column to visualize the distinct number of postings per month, and used "Job Position Level" to differentiate these Job Postings.
+
+<img width="439" alt="TABLEAU JOB PROJ 7" src="https://github.com/Marvykeys/Analyzing-Job-Market-Data/assets/130637591/9a72a3a0-92b8-49ee-a3c6-a69673c83c74">
 
 
 ## Analysis & Visuallization 📈
-There is a column called "Churn Label" that indicates "Yes" or "No". I converted this column into a column indicating if a customer churned or not.     
+I visualized the count of all the different Job titles compared to each other.     
 
-<img width="401" alt="DATABEL BI 5" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/72b61b74-fc96-4726-b2be-eddf1a0b2e3c">
-
-##
-I used the churned column I created to create a measure called "Number of Churned Customers".                                                                           
-
-<img width="448" alt="DATABEL BI 6" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/e746b0b5-9cc3-46cd-890f-79e45abdf0d9">
+<img width="658" alt="TABLEAU JOB PROJ 8" src="https://github.com/Marvykeys/Analyzing-Job-Market-Data/assets/130637591/dba5cd2b-e86b-47b5-8a49-306ff672983a">
 
 ##
-I calculated the churn rate and formatted as a percentage. 
+I created a calculated field called "Average Pay" which calculates the average salary using "Minimum Pay" and "Maximum Pay".
 
-<img width="545" alt="Churn Rate" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/82c422ca-3a63-4e63-998a-b4112e41c810">
-
-##
-
-<img width="157" alt="DATABEL BI 7b" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/7b98d0f8-32f5-463f-84e3-248a69b7273e">
-
+<img width="572" alt="TABLEAU JOB PROJ 9" src="https://github.com/Marvykeys/Analyzing-Job-Market-Data/assets/130637591/068f153c-fa58-48c7-8eb6-27b9aa38dfbb">
 
 ##
-I visualize the reasons why customers become churners by using "Number of Customers" & "Churn Reasons".                                                                                                             
-<img width="582" alt="DATABEL BI 9" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/31033329-13aa-4df2-902a-5df96c737bea">
+I visualized the average pay per years of experience. 
 
-
-
-##
-
-<img width="376" alt="DATABEL BI 13" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/66eec313-4d3c-498a-9592-ca83e45b5ae7">
-
-##
-I created a line and stacked column chart which shows the number of customers and churn rate for every age bracket.
-
-<img width="475" alt="DATABEL BI 14" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/c697743c-7119-48c6-b182-2ba8ce13a963">
-
-##
-I created a bar chart which plots the average monthly phone bill charge by "Number of customers in Group".
-
-<img width="421" alt="DATABEL BI 15" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/b1e427a3-5df8-48ae-8a96-349319ce25d0">
-
-##
-Created a new column named "Contract Category" to help observe the difference between customers who have only yearly contracts and those having monthly contracts.
-
-<img width="585" alt="DATABEL BI 16" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/52f30bb6-6b8b-45fc-9f92-7ce5ff2950fc">
-
-##
-To observe how yearly and monthly contracts affect the churn rate, I use a multi-row card visualization, to clearly see the difference.
-
-<img width="405" alt="DATABEL BI 17" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/45c5f9f2-1249-454d-b0b9-46763cfaa6eb">
+<img width="655" alt="TABLEAU JOB PROJ 12" src="https://github.com/Marvykeys/Analyzing-Job-Market-Data/assets/130637591/fc7d348f-70a9-4ef5-aece-1ad938611c89">
 
 ##
 **KEY INSIGHT**
-Customers with monthly contracts, churn more compared to customers with yearly contracts.
+(1) As years of experience increase for a job, so does the associated salary.
 
-##
-In the process of investigating how the "Unlimited Data Plan" influences the churn rate,
+(2) There are many empty values for salary inforamtion from postings.
 
-I created a column named "Grouped Consumption" which classifies the Average Monthly GB Download into "Less than 5 GB", "Between 5 & 10 GB" and "10 or more GB".
+(3) Job postings over the last 5 years are tranding upwards.
 
-I created a Table vizualisation which displays the churn rate for customers who have the unlimted plan and for customers who don't.
+## The Dashboard
 
-I also created a Clustered Bar Chart to display Churn rate by Unlimited data plan and by the 3 newly created groups.
-
-<img width="549" alt="DATABEL BI 18" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/dc0e8564-c6b1-433a-a46a-465318ea2c90">
-
-##
-
-<img width="529" alt="DATABEL BI 19" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/e0a46916-0497-4dd0-b989-0b583124b952">
-
-##
-To better understand the international activity of customers and its relationship to churn, I created a Matrix Vizualisation which displays the churn rate by "Intl Plan" & "Intl Active" columns. To focus on a state by state basis, I changed the category of state to "State or Province".
-
-<img width="544" alt="DATABEL BI 20" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/769e228d-ba73-45fb-bf38-a037572fc735">
-
-##
-**KEY INSIGHT**
-It is discovered that the churn rate for customers who pay for an international plan and but don't call internationally is sky-high.
-Databel is advised to contact customers who are on an international plan but have not called internationally and propose they downgrade their plan.
-
-##
-In Evaluating if the churn rate decreases overtime, I created a line chart using the "Account length" and "Churn rate".
-**Findings** The churn rate decreases overtime.
-In Evaluating how this decrease affects the different contract types, I created another line chart to visualize the decrease for each contract type.
-I also created a pie chart to see the number of customers per each payment type.
-
-<img width="542" alt="DATABEL BI 21" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/ded51a81-672e-45c7-bd39-b34099fed73e">
-
-## The Dashboard Before Design
-
-<img width="575" alt="DATABEL BI 22" src="https://github.com/Marvykeys/Databel-Customer-Churn-Analysis/assets/130637591/06549c9d-b793-4ffc-8cdb-dd5f13f94899">
+<img width="868" alt="Job Market Analysis DASHBOARD" src="https://github.com/Marvykeys/Analyzing-Job-Market-Data/assets/130637591/19ef36fe-57a1-4f68-b059-499e192ae8b4">
 
 ## THE FINAL INTERACTIVE DASHBOARD :art:
-[Dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2VjMzM0MzUtMjE5My00Njc3LWFlM2EtNjA0M2NjZDE3Y2U1IiwidCI6IjE5NmUyMGNhLWY4NDgtNGRiYy1iODEyLTAxMjVjZGE4NjQ5NCJ9)
+[Dashboard](https://public.tableau.com/views/JobPostingProject/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
