@@ -68,6 +68,7 @@ I visualized the average pay per years of experience.
 
 ##
 **KEY INSIGHT**
+
 (1) As years of experience increase for a job, so does the associated salary.
 
 (2) There are many empty values for salary inforamtion from postings.
